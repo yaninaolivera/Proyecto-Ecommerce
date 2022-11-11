@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LineTech | Inicio</title>
+        <link rel="shortcut icon" href="img/logo.png" type="image/png">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/icons.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> <img src="img/icono.png"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 opciones">
+                        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#"><i class="fe-home"></i> Inicio</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#"><i class="fe-user"></i> Iniciar Sesión</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#"><i class="fe-help-circle"></i> Ayuda</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#"><i class="fe-shopping-cart"></i> Carrito</a> </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <div class="input-group">
+                            <span class="input-group-text"><button type="button" class="btn btn-default btn-sm"><i class="fe-search"></i></button></span>
+                            <input type="search" class="form-control me-2" placeholder="Buscar...">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active"> <img src="img/portada_1.jpg" class="d-block w-100"> </div>
+                <div class="carousel-item"> <img src="img/portada_2.jpg" class="d-block w-100"> </div>
+                <div class="carousel-item"> <img src="img/portada_3.jpg" class="d-block w-100"> </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container categorias mt-5 text-center">
+            <div class="row">
+                <div class="col-md-2 offset-md-1">
+                    <img src="img/cat_laptops.png">
+                    <a href="#">Laptops</a>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/cat_celulares.png">
+                    <a href="#">Celulares</a>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/cat_servidores.png">
+                    <a href="#">Servidores</a>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/cat_equipos.png">
+                    <a href="#">Equipos</a>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/cat_otros.png">
+                    <a href="#">Otros</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container productos mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/producto_1.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Laptop Lenovo V15 ADA AMD Athlon Gold 3150U 8GB, HDD 1TB + SSD 256GB, 15.6</h5>
+                            <p class="card-text">Marca Lenovo</p>
+                            <p class="card-text"><del class="text-secondary">S/ 1,990.00</del> - <span class="text-danger">40%</span></p>
+                            <h6 class="text-success">S/ 1,190.00</h6>
+                            <button type="button" class="btn btn-warning w-100 text-white">Agregar a Carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/producto_2.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Xiaomi Redmi Note 11 128gb 4gb Ram Gris. AMOLED 6,43" Full HD+90 Hz</h5>
+                            <p class="card-text">Marca Xiaomi</p>
+                            <p class="card-text"><del class="text-secondary">S/ 999.00</del> - <span class="text-danger">21%</span></p>
+                            <h6 class="text-success">S/ 769.00</h6>
+                            <button type="button" class="btn btn-warning w-100 text-white">Agregar a Carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/producto_3.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Lenovo ThinkSystem Servidor ST550 Xeon Silver 4114 10C 2 2GHZ 1X8GB - 7X10A05HLA</h5>
+                            <p class="card-text">Marca Lenovo</p>
+                            <p class="card-text"><del class="text-secondary">S/ 14,779.00</del> - <span class="text-danger">17%</span></p>
+                            <h6 class="text-success">S/ 12,129.00</h6>
+                            <button type="button" class="btn btn-warning w-100 text-white">Agregar a Carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/producto_4.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Equipo de Sonido de Alta Fidelidad Micronics Polaris MIC S7074BT</h5>
+                            <p class="card-text">Marca Micronics</p>
+                            <p class="card-text"><del class="text-secondary">S/ 240.00</del> - <span class="text-danger">24%</span></p>
+                            <h6 class="text-success">S/ 189.00</h6>
+                            <button type="button" class="btn btn-warning w-100 text-white">Agregar a Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center mt-3">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous"> <span aria-hidden="true">&laquo;</span> </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next"> <span aria-hidden="true">&raquo;</span> </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <footer class="footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/icono-w.png">
+                </div>
+                <div class="col-md-4">
+                    <h3 class="mb-4">Contáctenos</h3>
+                    <p><i class="fe-phone"></i> +51 942 984 245</p>
+                    <p><i class="fe-map-pin"></i> Jr. Los Rosales N°675 - Urb. 10 de Octubre. <br> San Martín, Perú.</p>
+                </div>
+                <div class="col-md-4 redes text-center">
+                    <h3 class="mb-4">Redes Sociales</h3>
+                    <a href="#"><i class="fe-facebook"></i></a>
+                    <a href="#"><i class="fe-twitter"></i></a>
+                    <a href="#"><i class="fe-youtube"></i></a>
+                </div>
+            </div>
+            <h6 class="text-secondary text-center mt-3">Copyright Grupo 6 - Certus - 2022 ©</h6>
+        </footer>
+        
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
