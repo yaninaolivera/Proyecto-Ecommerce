@@ -1,229 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!--CSS-->
-  <link rel="stylesheet" href="carrito.css">
-
-  <!--Google Fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
-
-  <title>E-Comerce | Section Carrito</title>
-</head>
-<body>
-  <div class="icono">
-    <img src="/img-carrito/icono.png" alt="">
-  </div>
-  <div class="contenedor">
-    <!--Lado Izquierdo-->
-    <div class="product-caract-izq">
-      <h2 class="h2">
-        caracteristicas de los productos
-      </h2>
-      <!--item 1-->
-      <div class="product-caract-items">  
-        <img class="img-carrito"src="img-carrito/laptop.png" alt="imagen del producto 1">
-        <p class="text-caract"> Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. Sequi, alias!
-        </p>
-      </div>
-  
-      <!--item 2-->
-      <div class="product-caract-items">  
-        <img class="img-carrito"src="img-carrito/mouse.png" alt="imagen del producto 2">
-        <p> Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. Sequi, alias!
-        </p>
-      </div>
-  
-      <!--item 3-->
-      <div class="product-caract-items">  
-        <img class="img-carrito"src="img-carrito/monitor.png" alt="imagen del producto 3">
-        <p> Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. Sequi, alias!
-        </p>
-      </div>
-    </div>
-  
-    <!--Lado Derecho-->
-    <div class="product-caract-der">
-      <h2 class="h2">
-        Resumen del pedido
-      </h2>
-      <!--Columnas-->
-      <div class="columnas">
-       <!--Columna 1-->
-        <div class="cont-columna-1">
-          <div>
-            <p class="columna-titulo">
-              Producto
-            </p>
-          </div>
-          <div>
-            <p class="resumen-texto">
-              Laptop
-            </p>
-          </div>
-          <div>
-            <p class="resumen-texto">
-              Mouse
-            </p>
-          </div>  
-          <div>
-            <p class="resumen-texto">
-              Televisor
-            </p>
-          </div>
-          <div>
-            <p class="resumen-texto">
-              total
-            </p>
-          </div>
-        </div>
-
-        <!--Columna 2-->    
-        <div class="cont-columna-2">
-          <div>
-            <p class="columna-titulo">
-              Cantidad
-            </p>
-          </div>
-          <div>
-            <p class="resumen-texto">
-              1
-            </p>
-          </div>
-          <div>
-            <p class="resumen-texto">
-              2
-            </p>
-          </div>  
-          <div>
-            <p class="resumen-texto">
-              3
-            </p>
-          </div>
-          <div>
-            <p class="resumen-texto">
-              6
-            </p>
-          </div>
-        </div>
-
-        <!--Columna 3-->
-        <div class="cont-columna-3">
-          <div>
-            <p class="columna-titulo">
-              Precio
-            </p>
-          </div>
-          <div>
-            <p class="resumen-texto">
-              500$
-            </p>
-          </div>
-          <div>
-            <p class="resumen-texto">
-              1000$
-            </p>
-          </div>  
-          <div>
-            <p class="resumen-texto">
-              1$
-            </p>
-          </div>
-          <div>
-            <p class="resumen-texto">
-              1501$
-            </p>
-          </div>
-        </div>
-        <!--Columna 4-->
-        <div class="cont-columna-4">
-          <div>
-            <p class="columna-titulo">
-              Eliminar
-            </p>
-          </div>
-          <div>
-            <p class="resumen-texto">
-              <button class="boton-eliminar">
-                Eliminar
-              </button>
-            </p>
-          </div> 
-          <div>
-            <p class="resumen-texto">
-              <button class="boton-eliminar">
-                Eliminar
-              </button>
-            </p>
-          </div>  
-          <div>
-            <p class="resumen-texto">
-              <button class="boton-eliminar">
-                Eliminar
-              </button>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      
-
-      
-      <!--boton-->
-      <div class="boton">
-        <button>
-          Procesar Pago
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LineTech | Carrito</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carrito.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"> <img src="img/icono.png"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 opciones">
+            <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html"><i class="fe-home"></i>
+                Inicio</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="iniciar_sesion.html"><i class="fe-user"></i> Iniciar Sesión</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="ayuda.html"><i class="fe-help-circle"></i> Ayuda</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="carrito.html"><i class="fe-shopping-cart"></i> Carrito</a> </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <div class="input-group">
+              <span class="input-group-text"><button type="button" class="btn btn-default btn-sm"><i
+                    class="fe-search"></i></button></span>
+              <input type="search" class="form-control me-2" placeholder="Buscar...">
+            </div>
+          </form>
+        </div>
       </div>
-      
-    </div>
-  </div>
-  <!--Footer-->
-
-  <div class="contenedor-footer">
-    <!--Logo-->
-    <div class="logo">
-      <img src="/img-carrito/logo.png" alt="logo de la empresa">
-    </div>
-
-    <footer>
-      <h3 class="footer-titulo">
-        Contactanos
-      </h3>
-      <p class="footer-text">
-        Jr. Los Rosales N675-Urb. 10 de Octubre, San Martin-Peru.
-      </p>
-      <p class="footer-text">
-        (+51) 942 984 245
-      </p>
-      <p class="footer-text">
-        <a href="#">line_tech@gmail.com</a> 
-      </p>
-      <p class="footer-derechos">Todos los derechos reservados @kevin carrera sanchez</p>
-    </footer>
-
-    <!--Redes Sociales-->
-
-    <div class="footer-redes">
-      <p class="footer-titulo">   Redes Sociales</p>
-      <div class="redes-sociales">
-        <a href="#">       <img src="/img-carrito/icono facebook.png" alt="icono de facebook">
-        </a>
-        <a href="#">
-          <img src="/img-carrito/icono twitter.png" alt="icono de twitter">
-        </a>
-        <a href="#">
-          <img src="/img-carrito/icono youtube.png" alt="icono de youtube">
-        </a>
-      </div>
-    </div>
+    </nav>
+    <div class="contenedor">
+      <!--Lado Izquierdo-->
+      <div class="product-caract-izq">
+        <h2 class="h2">
+          caracteristicas de los productos
+        </h2>
+        <!--item 1-->
+        <div class="product-caract-items">  
+          <img class="img-carrito"src="img-carrito/laptop.png" alt="imagen del producto 1">
+          <p class="text-caract"> Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. Sequi, alias!
+          </p>
+        </div>
     
-  </div>
+        <!--item 2-->
+        <div class="product-caract-items">  
+          <img class="img-carrito"src="img-carrito/mouse.png" alt="imagen del producto 2">
+          <p> Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. Sequi, alias!
+          </p>
+        </div>
+    
+        <!--item 3-->
+        <div class="product-caract-items">  
+          <img class="img-carrito"src="img-carrito/monitor.png" alt="imagen del producto 3">
+          <p> Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. Sequi, alias!
+          </p>
+        </div>
+      </div>
+    
+      <!--Lado Derecho-->
+      <div class="product-caract-der">
+        <h2 class="h2">
+          Resumen del pedido
+        </h2>
+        <!--Columnas-->
+        <div class="columnas">
+        <!--Columna 1-->
+          <div class="cont-columna-1">
+            <div>
+              <p class="columna-titulo">
+                Producto
+              </p>
+            </div>
+            <div>
+              <p class="resumen-texto">
+                Laptop
+              </p>
+            </div>
+            <div>
+              <p class="resumen-texto">
+                Mouse
+              </p>
+            </div>  
+            <div>
+              <p class="resumen-texto">
+                Televisor
+              </p>
+            </div>
+            <div>
+              <p class="resumen-texto">
+                total
+              </p>
+            </div>
+          </div>
 
-</body>
+          <!--Columna 2-->    
+          <div class="cont-columna-2">
+            <div>
+              <p class="columna-titulo">
+                Cantidad
+              </p>
+            </div>
+            <div>
+              <p class="resumen-texto">
+                1
+              </p>
+            </div>
+            <div>
+              <p class="resumen-texto">
+                2
+              </p>
+            </div>  
+            <div>
+              <p class="resumen-texto">
+                3
+              </p>
+            </div>
+            <div>
+              <p class="resumen-texto">
+                6
+              </p>
+            </div>
+          </div>
+
+          <!--Columna 3-->
+          <div class="cont-columna-3">
+            <div>
+              <p class="columna-titulo">
+                Precio
+              </p>
+            </div>
+            <div>
+              <p class="resumen-texto">
+                500$
+              </p>
+            </div>
+            <div>
+              <p class="resumen-texto">
+                1000$
+              </p>
+            </div>  
+            <div>
+              <p class="resumen-texto">
+                1$
+              </p>
+            </div>
+            <div>
+              <p class="resumen-texto">
+                1501$
+              </p>
+            </div>
+          </div>
+          <!--Columna 4-->
+          <div class="cont-columna-4">
+            <div>
+              <p class="columna-titulo">
+                Eliminar
+              </p>
+            </div>
+            <div>
+              <p class="resumen-texto">
+                <button class="boton-eliminar">
+                  Eliminar
+                </button>
+              </p>
+            </div> 
+            <div>
+              <p class="resumen-texto">
+                <button class="boton-eliminar">
+                  Eliminar
+                </button>
+              </p>
+            </div>  
+            <div>
+              <p class="resumen-texto">
+                <button class="boton-eliminar">
+                  Eliminar
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        
+
+        
+        <!--boton-->
+        <div class="boton">
+          <button>
+            Procesar Pago
+          </button>
+        </div>
+        
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/icono-w.png">
+        </div>
+        <div class="col-md-4">
+          <h3 class="mb-4">Contáctenos</h3>
+          <p><i class="fe-phone"></i> +51 942 984 245</p>
+          <p><i class="fe-map-pin"></i> Jr. Los Rosales N°675 - Urb. 10 de Octubre. <br> San Martín, Perú.</p>
+        </div>
+        <div class="col-md-4 redes text-center">
+          <h3 class="mb-4">Redes Sociales</h3>
+          <a href="#"><i class="fe-facebook"></i></a>
+          <a href="#"><i class="fe-twitter"></i></a>
+          <a href="#"><i class="fe-youtube"></i></a>
+        </div>
+      </div>
+      <h6 class="text-secondary text-center mt-3">Copyright Grupo 6 - Certus - 2022 ©</h6>
+    </footer>
+    
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
