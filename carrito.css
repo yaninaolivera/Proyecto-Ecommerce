@@ -1,0 +1,156 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: rgb(180, 176, 176);
+  font-family: 'Xanh Mono', monospace;
+}
+/*Icono*/
+.icono img{
+  width: 15%;
+  height: 4%;
+  margin-left: 2%;
+}
+
+.contenedor{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 2%;
+  background-color: rgb(238, 226, 226);
+}
+
+.h2{
+  text-align: center;
+}
+
+/*lado izquierdo de la pagina*/
+.product-caract-izq{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+
+
+/*caracteristicas de los productos*/
+.product-caract-items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  /*img*/
+
+.img-carrito{
+  height: 100px;
+  width: 100px;
+  border-radius: 5%;
+  padding-right: 15px;
+}
+
+.img-carrito:hover{
+  border-bottom: 1px inset black;
+  border-left: 1px inset black;
+}
+
+
+/*Lado derecho*/
+
+.product-caract-der{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  margin-top: 5%;
+}
+.columnas{
+  display: flex;
+justify-content: space-evenly;
+}
+
+.columna-titulo{
+  font-size: 20px;
+}
+.resumen-texto{
+  display: flex;
+  padding: 20px 0 20px 0;
+  justify-content: center;
+}
+
+.boton-eliminar{
+  border: none;
+  padding: 2px;
+  background-color:rgb(182, 178, 178) ;
+  border-radius: 5px;
+}
+
+.boton-eliminar:hover{
+  background-color: #e03c3c;
+}
+.boton{
+  display: flex;
+  justify-content:space-around;
+  margin-left: 25px;
+}
+
+.boton button{
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(129, 124, 124);
+  color: #ffffff;
+  border: none;
+  justify-content: space-evenly;
+}
+
+.boton button:hover{
+  background-color: #e03c3c;
+}
+
+/*footer-contacto*/
+.contenedor-footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-titulo{
+  font-size: 35px;
+  text-align: center;
+}
+
+.footer-text{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.footer-derechos{
+  font-size: 10px;
+  text-align: center;
+}
+
+/*footer-logo*/
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width: 100px;
+  height: 100px;
+}
+
+/*footer-Redes sociales*/
+.redes-sociales{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.footer-titulo{
+  text-align: center;
+}
