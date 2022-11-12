@@ -1,0 +1,144 @@
+html {
+  font-size: 14px;
+}
+
+body{
+  background: #e2e2e2;
+  padding: 10px;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+
+header .navbar {
+  background: #fff;
+}
+
+header .navbar .navbar-nav {
+  border: solid 3px #222222;
+}
+
+header .navbar .navbar-nav .nav-link.active {
+  background: #EA562F;
+  font-weight: 600;
+  color: #fff;
+}
+
+main .title {
+  text-transform: uppercase;
+  color: rgb(90, 90, 90);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+main .search-title {
+  color: rgb(90, 90, 90);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+main .input-group {
+  display: flex;
+  align-items: center;
+  border: solid 3px #222222;
+  border-radius: 1.5rem;
+}
+
+main .input-group .input-group-prepend .input-group-text {
+  background: transparent;
+  border: 0;
+}
+
+main .input-group input {
+  border: 0;
+  background: transparent;
+}
+
+main .faq-title {
+  color: rgb(90, 90, 90);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+main .faq-wrapper {
+  border: solid 1px #222222;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  padding: 10px;
+  background: #fff;
+}
+
+main .faq-wrapper .faqs {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+main .faq-wrapper .faq-item {
+  color: rgb(90, 90, 90);
+  font-weight: 500;
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+  text-decoration: none;
+  padding: 5px;
+}
+
+main .faq-wrapper .more-faqs {
+  font-weight: bold;
+}
+
+main .list-group .list-group-item {
+  font-weight: 600;
+  border-color: #222222;
+}
+
+main .list-group .list-group-item .item-pedido {
+  font-weight: 400;
+}
+
+main .list-group .list-group-item.active {
+  background-color: #EA562F;
+}
+
+.square {
+  border: solid 3px #222222;
+  width: 100%;
+  height: 240px;
+}
+
+footer {
+  font-weight: 500;
+}
+
+footer .help-title {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+footer .contact-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+footer .footer-icon {
+  font-size: 2.5rem;
+}
+
+footer .phone .phone-text {
+  border: solid 3px #222222;
+  box-shadow: 5px 5px #222222;
+  margin-left: 5rem;
+}
+
+footer .whatsapp .whatsapp-text {
+  border: solid 3px #222222;
+  box-shadow: 5px 5px #222222;
+  margin-left: 5rem;
+}
