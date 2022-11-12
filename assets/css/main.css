@@ -2,11 +2,6 @@ html {
   font-size: 14px;
 }
 
-body{
-  background: #e2e2e2;
-  padding: 10px;
-}
-
 .form-control:focus {
   color: #212529;
   background-color: transparent;
